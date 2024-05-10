@@ -1,0 +1,34 @@
+$start-color: rgb(44, 33, 22)
+$end-color: rgb(80, 59, 40)
+
+.navbar
+    background-image: linear-gradient(to bottom, $start-color, $end-color)
+    min-height: 66px
+    padding: 8px 100px 0 100px
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &_btns
+            width: 549px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            button
+                border: none
+                background-color: rgba(255, 255, 255, 0)
+                color: #E4DACE
+                font-size: 16px
+                font-weight: 500
+                cursor: pointer
+                transition: .3s all
+                &:hover
+                    color: rgba(228, 218, 206, .7)
+    &__logo
+        width: 50px
+        height: 50px
+        cursor: pointer
+        img
+            max-width: 100%
+    
+
